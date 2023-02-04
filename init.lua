@@ -1,0 +1,7 @@
+require("plugins")
+require("LSPConf")
+require("autocomplete")
+require("settings")
+require("functions")
+require("autocommands")
+require("mappings")

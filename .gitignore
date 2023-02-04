@@ -1,0 +1,4 @@
+.git/
+undo
+lua/node_modules
+plugin
