@@ -9,3 +9,11 @@ map("n", "<M-S-l>", ":vsplit<CR>", { noremap = true, silent = true })
 map("n", "<M-S-h>", ":vsplit<CR><C-W>h", { noremap = true, silent = true })
 map("n", "<M-S-j>", ":split<CR>", { noremap = true, silent = true })
 map("n", "<M-S-k>", ":split<CR><C-W>k", { noremap = true, silent = true })
+
+map("n", ",vs", ":vsplit<CR><C-W>h", { noremap = true, silent = true })
+map("n", ",hs", ":split<CR><C-W>k", { noremap = true, silent = true })
+
+map("n", "<Leader>cc", "<cmd>CompilerOpen<cr>", { noremap = true, silent = true })
+map("n", "<Leader>co", "<cmd>CompilerToggleResults<cr>", { noremap = true, silent = true })
+
+map("n", "<C-F>", "<cmd>Neotree toggle<cr>", { noremap = true, silent = true })
